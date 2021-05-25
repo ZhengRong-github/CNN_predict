@@ -69,3 +69,4 @@ for i in range(len(test_target)):
 
 test_data_x = np.array(test_data,dtype='float64').reshape(-1,1,23,4)
 test_y_pred = model.predict(test_data_x)
+print(test_y_pred)
